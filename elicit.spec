@@ -1,6 +1,6 @@
 %define	name	elicit
 %define	version	0.9.0
-%define release %mkrel 0.%{cvsrel}.1
+%define release %mkrel 0.%{cvsrel}.2
 
 %define cvsrel 20060323
 
