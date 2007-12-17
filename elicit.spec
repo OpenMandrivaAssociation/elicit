@@ -14,7 +14,7 @@ URL: 		http://get-e.org/
 Source: 	%{name}-%{cvsrel}.tar.bz2
 BuildRequires:	evas-devel esmart-devel embryo-devel
 BuildRequires:	ecore-devel edje-devel 
-BuildRequires:	edb-devel eet-devel eet
+BuildRequires:	edb-devel eet-devel /usr/bin/eet-config
 BuildRequires:	edje
 
 %description
