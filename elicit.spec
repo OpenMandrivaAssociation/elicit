@@ -15,7 +15,7 @@ Source: 	%{name}-%{cvsrel}.tar.bz2
 BuildRoot: 	%{_tmppath}/%{name}-buildroot
 BuildRequires:	evas-devel esmart-devel embryo-devel
 BuildRequires:	ecore-devel edje-devel 
-BuildRequires:	edb-devel eet-devel /usr/bin/eet-config
+BuildRequires:	edb-devel eet-devel eet
 BuildRequires:	edje
 
 %description
