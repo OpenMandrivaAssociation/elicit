@@ -1,8 +1,8 @@
 %define	name	elicit
 %define	version	0.9.3
+%define svn 20090227
 %define release %mkrel 0.%{svn}.2
 
-%define cvsrel 20090227
 
 Summary: 	Enlightenment screen zoom
 Name: 		%{name}
