@@ -46,3 +46,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS COPYING README
 %{_bindir}/*
 %{_datadir}/%name
+%{_datadir}/applications/%name.desktop
+%{_datadir}/pixmaps/%name.png
+
