@@ -27,7 +27,7 @@ This package is part of the Enlightenment DR17 desktop shell.
 
 %prep
 rm -rf $RPM_BUILD_ROOT
-%setup -q -n %name
+%setup -q -n %name-%version
 
 %build
 ./autogen.sh
