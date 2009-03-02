@@ -1,8 +1,8 @@
 %define	name	elicit
-%define	version	0.9.0
-%define release %mkrel 0.%{cvsrel}.2
+%define	version	0.9.3
+%define release %mkrel 0.%{svn}.2
 
-%define cvsrel 20060323
+%define cvsrel 20090227
 
 Summary: 	Enlightenment screen zoom
 Name: 		%{name}
@@ -11,12 +11,13 @@ Release: 	%{release}
 License: 	BSD
 Group: 		Graphical desktop/Enlightenment
 URL: 		http://get-e.org/
-Source: 	%{name}-%{cvsrel}.tar.bz2
+Source: 	%{name}-%{version}.tar.bz2
 BuildRoot: 	%{_tmppath}/%{name}-buildroot
-BuildRequires:	evas-devel esmart-devel embryo-devel
-BuildRequires:	ecore-devel edje-devel 
-BuildRequires:	edb-devel eet-devel eet
-BuildRequires:	edje
+BuildRequires:	evas-devel >= 0.9.9.050, esmart-devel >= 0.9.0.050, embryo-devel >= 0.9.9.050
+BuildRequires:	ecore-devel >= 0.9.9.050, edje-devel >= 0.9.9.050
+BuildRequires:	eet-devel >= 1.1.0, eet >= 1.1.0
+BuildRequires:	edje >= 0.9.9.050
+#Buildrequires:	edb-devel
 
 %description
 Elicit is a screen zoomer / color picker written with the Enlightenment
